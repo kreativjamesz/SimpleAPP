@@ -12,3 +12,20 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+.flat {
+	border-radius:0px;
+}
+.btn-transparent {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent; }
+
+.btn [class^="icon-"], .btn [class*=" icon-"] {
+  display: inline-block;
+  margin-top: -2px;
+  vertical-align: middle; }
+
+.card .card-user {
+  border:none !important;
+
+}

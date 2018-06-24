@@ -3,7 +3,7 @@
 # &#x1F34E; Installation 
 - Clone repository
 ```
-git clone https://github.com/
+git clone https://github.com/kreativjamesz/SimpleAPP.git
 ```
 - Copy .env.example file to .env and edit .env to configure your database
 ```
@@ -25,4 +25,7 @@ php artisan db:seed
 npm install
 npm run watch
 ```
-- Serve application. You may use Valet, Homestead or just `php artisan serve`
+- Serve application. You may use Valet, Homestead or just
+```
+php artisan serve --port:8000
+```
