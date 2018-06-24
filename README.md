@@ -7,7 +7,7 @@ git clone https://github.com/kreativjamesz/SimpleAPP.git
 ```
 - Copy .env.example file to .env and edit .env to configure your database
 ```
-cd shopping-list
+cd SimpleAPP
 cp .env.example .env
 ```
 - Install libraries and dependencies
