@@ -24,7 +24,8 @@ class TasksController extends Controller
      */
     public function index()
     {
-        return view('dashboard.tasks.index');
+        $tasks = Task::all();
+        return view('dashboard.tasks.index',['tasks'=>$tasks]);
     }
 
     /**
