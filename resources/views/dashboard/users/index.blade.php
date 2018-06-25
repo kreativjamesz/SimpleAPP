@@ -26,7 +26,10 @@
                                 <td scope="row">{{$user->id}}</td>
                                 <td>{{$user->name}}</td>
                                 <td>{{$user->email}}</td>
-                                <td><a href="{{route('users.show',$user->id)}}" class="btn btn-link btn-small">Show</a> <a href="" class="btn btn-link btn-small">Edit</a> <a href="" class="btn btn-link btn-small">Delete</a></td>
+                                <td>
+                                    <a href="{{route('users.show',$user->id)}}" class="btn btn-primary btn-sm flat">Show</a> 
+                                    <a href="{{route('users.edit',$user->id)}}" class="btn btn-warning btn-sm flat">Update</a> 
+                                </td>
                             </tr>
                             @endforeach
                         </tbody>
