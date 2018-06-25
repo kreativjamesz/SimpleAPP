@@ -20,6 +20,8 @@
 <body>
     @include('dashboard.layouts.partials.navbar')
     <div id="app">
+        @include('dashboard.layouts.partials.success')
+        @include('dashboard.layouts.partials.errors')
         @yield('content')
     </div>
     

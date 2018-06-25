@@ -11,6 +11,11 @@ class ProjectsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $project = \App\Project::create([
+            'name' => 'The Companye Name 3',
+            'description' => 'Coluptates distinctio aperiam eligendi blanditiis placeat tempora eum ad asperiores maxime quod soluta aliquid.',
+        ]);
+
+        $project->save();
     }
 }

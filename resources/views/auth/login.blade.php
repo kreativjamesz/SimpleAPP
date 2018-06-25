@@ -155,7 +155,12 @@
                         <div class="card-body text-center">
                             <div>
                                 <h2>Sign up</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="mb-0">Type in command prompt <b>php artisan db:seed</b>, and it'll generate sample user's email, all with the same password of "password" such as:</p>
+                                <small class="text-light">
+                                superadministrator@app.com<br>
+                                administrator@app.com<br>
+                                user@app.com<br>
+                                </small>
                                 <a href="{{route('register')}}" class="btn btn-primary active mt-3" type="button">Register Now!</a>
                             </div>
                         </div>

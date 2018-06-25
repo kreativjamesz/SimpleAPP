@@ -10,6 +10,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
+                @role('superadministrator|administrator')
+                <li><a class="nav-link" href="{{ route('users.index') }}"><i class="fa fa-users"></i> Users</a></li>
+                @endrole
                 <li><a class="nav-link" href="{{ url('projects') }}"><i class="fa fa-briefcase"></i> Projects</a></li>
                 <li><a class="nav-link" href="{{ url('tasks') }}"><i class="fa fa-list"></i> Tasks</a></li>
                 <li><a class="nav-link" href="{{ route('profile') }}"><i class="fa fa-image"></i> Profile</a></li>

@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
         // $this->call(LaratrustSeeder::class);
-        factory(Item::class, 6)->create();
+        // factory(Item::class, 6)->create();
+        // $this->call(ProjectsTableSeeder::class);
     }
 }
